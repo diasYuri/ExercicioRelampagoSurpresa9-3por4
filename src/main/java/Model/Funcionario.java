@@ -1,3 +1,5 @@
+package Model;
+
 public class Funcionario {
     private Escolaridade escolaridade;
     private Departamento alocacao;
@@ -46,7 +48,7 @@ public class Funcionario {
 
     public String getEstadoDaFilialDoCoordenador(){
         if (coordenacao.getCidade().getEstado() == null)
-            throw new IllegalArgumentException("Estado obrigatório");
+            throw new IllegalArgumentException("Model.Estado obrigatório");
         return coordenacao.getCidade().getEstado().getNomeEstado();
     }
 }

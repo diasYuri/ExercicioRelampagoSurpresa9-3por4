@@ -1,3 +1,5 @@
+package Model;
+
 public class Filial {
     private Cidade cidade;
     private Empresa empresa;
@@ -25,6 +27,6 @@ public class Filial {
         if(empresa != null)
             return empresa.getDiretor().getNomeFuncionario();
         else
-            return "Empresa não identificada";
+            return "Model.Empresa não identificada";
     }
 }

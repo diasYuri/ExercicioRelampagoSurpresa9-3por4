@@ -1,3 +1,5 @@
+package Model;
+
 public class Grupo {
     private Pais sede;
     private Funcionario presidente;
@@ -23,7 +25,7 @@ public class Grupo {
 
     public String getEscolaridadePresidente(){
         if (presidente.getEscolaridade() == null)
-            return "Escolaridade não informada";
+            return "Model.Escolaridade não informada";
         return presidente.getEscolaridadeFuncionario();
     }
 }

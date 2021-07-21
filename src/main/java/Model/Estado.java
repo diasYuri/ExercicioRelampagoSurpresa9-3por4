@@ -1,3 +1,5 @@
+package Model;
+
 public class Estado {
     private Pais pais;
     private String nomeEstado;

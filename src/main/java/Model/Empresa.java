@@ -1,3 +1,5 @@
+package Model;
+
 public class Empresa {
     private Grupo grupo;
     private Funcionario diretor;

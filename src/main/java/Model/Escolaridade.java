@@ -1,3 +1,5 @@
+package Model;
+
 public class Escolaridade {
     private String nivelEscolaridade;
 

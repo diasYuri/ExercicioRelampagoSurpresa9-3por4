@@ -1,3 +1,5 @@
+package Model;
+
 public class Departamento {
     private Empresa empresa;
     private Funcionario chefe;
